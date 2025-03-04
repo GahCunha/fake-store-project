@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Fake Store App
 
-## Getting Started
+## 📌 Sobre o Projeto
+O **Fake Store App** é um projeto de e-commerce desenvolvido com **Next.js**, utilizando a **Fake Store API** para consumo de produtos. Ele permite visualizar, cadastrar e interagir com produtos de forma dinâmica, utilizando tecnologias modernas para um design responsivo e interativo.
 
-First, run the development server:
+## 🎯 Objetivo
+Criar uma interface intuitiva para um e-commerce fictício, permitindo que os usuários visualizem produtos e registrem novos produtos, utilizando **Next.js, Tailwind CSS, ShadCN/UI e API Fake Store**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias Utilizadas
+- **Next.js** (Framework React)
+- **Tailwind CSS 4** (Estilização moderna e otimizada)
+- **ShadCN/UI** (Componentes estilizados)
+- **OKLCH Colors** (Melhor precisão e acessibilidade nas cores)
+- **API Fake Store** (API pública para produtos fictícios)
+- **Axios** (Consumo de API)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📡 API Utilizada
+- [Fake Store API](https://fakestoreapi.com/) - API pública que fornece produtos fictícios para testes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Funcionalidades
+✅ **Listagem de Produtos** - Exibe os produtos da API Fake Store.  
+✅ **Detalhes do Produto** - Página individual para cada produto.  
+✅ **Cadastro de Produtos** - Permite adicionar produtos fictícios à API.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📥 Como Executar o Projeto
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/GahCunha/fake-store-project.git
+   ```
+2. **Acesse o diretório:**
+   ```bash
+   cd fake-store-app
+   ```
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+4. **Execute o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+5. **Acesse no navegador:**
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## 📜 Licença
+Este projeto é de uso livre educativo.
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Créditos
+- **[Fake Store API](https://fakestoreapi.com/)** - Fonte dos dados fictícios.
+- **[ShadCN/UI](https://ui.shadcn.com/)** - Componentes estilizados.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework de estilização.
+- **[Next.js](https://nextjs.org/)** - Framework React para renderização otimizada.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
